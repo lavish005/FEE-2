@@ -1,0 +1,26 @@
+.one{
+    width:200px;
+    border:2px solid black;
+     background-color:white;
+     margin-top: 150px;
+     margin-left: 625px;
+     margin-right: 625px;
+     padding: 20px;
+ }
+ .two{
+      width:260px;
+ }
+ .submit{
+     width:180px;
+     height:35px;
+     border: none;
+     background-color: rgb(255, 0, 0);
+     padding-left: 20px;
+ }
+ .text{
+     font-size:x-large;
+ }
+ body{
+    background-image: url('chitkara_image.jpeg');
+    background-size: cover;
+ }

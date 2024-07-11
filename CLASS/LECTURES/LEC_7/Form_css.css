@@ -1,0 +1,32 @@
+body{
+    margin: 40px;
+    padding: 20px;
+    background-image: url('background.avif');
+    background-size: cover;
+}
+.head{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+.heade{
+    border-style: groove;
+    border-color: rgb(6, 16, 13);
+    border-radius: 30px;
+    border-width: 10px; 
+}
+.main{
+    border-style:groove;
+    border-color: rgb(6, 16, 13);
+    border-radius: 30px;
+    border-width: 10px;    
+}
+.tabe{
+    font-size: 2px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;;
+}

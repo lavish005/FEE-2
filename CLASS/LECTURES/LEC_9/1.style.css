@@ -1,0 +1,39 @@
+/* 1. Universal selector */
+*{
+    background-color: azure;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 2. ID selector */
+#fruits{
+    color: rebeccapurple;
+    border: 2px dotted green;
+}
+
+/* 3. CLass selector */
+.c{
+    color: green;
+}
+
+/* 4. Element selector */
+h1{
+    color: blueviolet;
+}
+p{
+    background-color: papayawhip;
+}
+
+/* 5. Attribute selector */
+input[type = "password"]{
+    background-color: green;
+}
+[type = "text"]{
+    background-color: orange;
+}
+/* [type = "email"]{ */
+    /* background-color: cyan;
+} */
+[placeholder = "EMail"]{
+    background-color: rgb(250, 199, 252);
+}
