@@ -1,0 +1,10 @@
+************************* 
+*SELECTORS               *
+ *Combinaators           *
+ *Decendent --ul--li--a  *
+ *Child -- ul>li         *
+ *Adjacent -- +          *
+ *General -- ~           *
+ ************************
+
+ 
