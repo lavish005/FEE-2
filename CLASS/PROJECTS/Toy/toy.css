@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+}
+.ttop{
+    background-color: rgb(154, 201, 83);
+    display: inline;
+}
+#call{
+    margin-left: 40px;
+    color: rgb(253, 189, 189);
+}
+#email{
+    margin-left: 60px;
+    color: rgb(241, 121, 121);
+}
