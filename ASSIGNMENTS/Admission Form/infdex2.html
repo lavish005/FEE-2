@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Admission Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    .about{
+        align-items: right;
+    }
+    .img{
+        mix-blend-mode:multiply;
+    }
+
+  </style>
+</head>
+
+<body>
+    
+    <div>
+        <img src="photo.webp" alt="" width = "200px">
+    </div>
+  <h1>College Admission Form</h1>
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="program">Program of Interest:</label>
+        <select id="program" name="program">
+          <option value="computer_science">Computer Science</option>
+          <option value="business_administration">Business Administration</option>
+          <option value="Electrical & Communication Engineering">Electrical & Communication Engineeringy</option>
+          <option value="Mechanical Engineering">Mechanical Engineering</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+      
+    </form>
+    
+  </div>
+  <a href="https://www.chitkara.edu.in/" target="_blank" style="float: inline-end;" ;>About us</a>
+</body>
+
+</html>
